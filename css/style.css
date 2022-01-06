@@ -23,8 +23,18 @@ article{
     transition: all 0.3s;
     cursor: pointer;
 }
-article:hover{
+article:hover {
     transform: scale(1.1);
+    transition: all 0.3s;
+}
+article:hover:before{
+    right: -128px;
+    top: -45px;
+    transition: all 0.3s;
+}
+article:hover:after{
+    right: -30px;
+    bottom: -145px;
     transition: all 0.3s;
 }
 article:before{
@@ -37,6 +47,7 @@ article:before{
     opacity: 0.3;
     right: -138px;
     top: -55px;
+    transition: all 0.3s;
 }
 article:after{
     content: " ";
@@ -48,6 +59,7 @@ article:after{
     opacity: 0.3;
     right: -40px;
     bottom: -160px;
+    transition: all 0.3s;
 }
 article:nth-child(1n){
     background: rgb(63,94,251);

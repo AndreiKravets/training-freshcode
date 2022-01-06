@@ -4,6 +4,8 @@
 }
 section{
     text-align: center;
+    max-width: 1500px;
+    margin: auto;
 }
 article{
     position: relative;
@@ -18,6 +20,13 @@ article{
     color: white;
     min-height: 260px;
     border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+article:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 article:before{
     content: " ";
